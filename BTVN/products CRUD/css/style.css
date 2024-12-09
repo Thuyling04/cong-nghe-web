@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px 30px;
+  text-align: center;
+}
+
+tr {
+  border-bottom: 1px;
+  border-bottom: solid 1px black;
+}
+
+/* thead th {
+  background-color: white;
+} */
+
+/* tbody td {
+  background-color: blanchedalmond;
+} */
+
+.hidden{
+  display: none;
+}
+
+.block-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.list-menu{
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  list-style: none;
+}
+
+
+.block-icon i {
+  width: 12%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(193, 184, 184);
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+
+.header button {
+  background-color: rgb(17, 18, 16);
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.header> :first-child,
+.header> :last-child {
+  margin: 20px;
+}
+
+.header div {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .add{
+  background-color: rgb(19, 17, 18);
+}
+.header .deleteAll{
+  background-color: #e04949;
+}
+
+.header a {
+  text-decoration: none;
+  padding: 13px 10px;
+}
+
+.clearfix {
+  margin-top: 20px;
+}
